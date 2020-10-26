@@ -1,4 +1,4 @@
-FROM hackinglab/alpine-base:latest
+FROM hackinglab/alpine-base:3.2
 MAINTAINER Ivan Buetler <ivan.buetler@compass-security.com>
 
 # Add the files
@@ -20,5 +20,5 @@ RUN echo "**** install Python ****" && \
     pip3 install -r requirements.txt
 
 
-# Expose the ports for nginx
+# Expose the ports for the flask app
 EXPOSE 80

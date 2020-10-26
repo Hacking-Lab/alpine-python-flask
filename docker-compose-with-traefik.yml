@@ -1,0 +1,15 @@
+version: '3.6'
+
+services:
+  alpine-python-flask:
+    build: .
+    image: hackinglab/alpine-python-flask:3.2
+    environment:
+    - AUTHOR=e1
+    - USERNAME=hracker
+    labels:
+      - "traefik.port=80"
+      - "traefik.frontend.rule=Host:ttyd.idocker.hacking-lab.com"
+      - "traefik.protocol=http"
+
+
