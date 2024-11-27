@@ -6,6 +6,12 @@ This image is providing an http echo request service. It will store requests in 
 * xss landing page
 * api request monitoring
 
+## Document Root
+* `/app/`
+
+## s6 overlay framework
+* version 3
+
 ## Purpose
 Give cyber security specialists a `landing page` for collecting cookies in a xss scenario. 
 
