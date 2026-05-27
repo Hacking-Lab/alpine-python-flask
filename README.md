@@ -7,8 +7,6 @@ https://github.com/Hacking-Lab/alpine-python-flask-hl
 # Docker Hub
 https://hub.docker.com/repository/docker/hackinglab/alpine-python-flask-hl
 
-# Docker Compose
-
 ```bash
 services:
   alpine-python-flask-hl:
